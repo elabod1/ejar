@@ -1,11 +1,14 @@
 import React from 'react'
+import buildings1 from '../images/buildings1.png';
+import handimage from '../images/hand image.png';
+
 
 const AboutUs = () => {
   return (
     <div className="flex justify-between justify-around font-kufi">
 
         <div className="">
-            <img src="src\images\hand image.png" alt="" className="w-[420px] h-[350px]" />
+            <img src={handimage} alt="" className="w-[420px] h-[350px]" />
         </div>
         <div className="grid row-span-2">
             <div className="text-right ">
@@ -15,7 +18,7 @@ const AboutUs = () => {
             </div>
             <div className="flex gap-9">
                 <div className="rounded-lg border border-gray-200 w-[200px] h-[200px] text-right">
-                <img src="src\images\buildings1.png" alt="" className="w-[34px] h-[34px] flex justify-self-end m-3" />
+                <img src={buildings1} alt="" className="w-[34px] h-[34px] flex justify-self-end m-3" />
                 <div className="px-2">
                 <h2 className="text-xl font-bold ">
                    الرسالة 
@@ -24,7 +27,7 @@ const AboutUs = () => {
                 </div>
                 </div>
                 <div className="rounded-lg border border-gray-200 w-[200px] h-[200px] text-right">
-                <img src="src\images\buildings1.png" alt="" className="w-[34px] h-[34px] flex justify-self-end m-3" />
+                <img src={buildings1} alt="" className="w-[34px] h-[34px] flex justify-self-end m-3" />
                 <div className="px-2">
                 <h2 className="text-xl font-bold ">
                     الرؤية

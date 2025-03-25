@@ -1,8 +1,9 @@
 import React from 'react'
+import background from '../images/image.png';
 
 const Header = () => {
   return (
-    <div className="bg-[url('src/images/image.png')] h-[700px] font-kufi">
+    <div className=" h-[700px] font-kufi" style={{ background: `url(${background})` }}>
         <div className='relative text-center pt-60'>
         <h1 className="text-4xl	text-white ">
         حقق حلمك بأمتلاك منزل رائع
