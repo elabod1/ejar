@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '../images/Group.png';
 
 
 const NavBar = () => {
@@ -25,7 +26,7 @@ const NavBar = () => {
                 <h3>ايجار</h3>
                 <h3>EJAR</h3>
             </div>
-            <img src="../src/images/Group.png" alt="" className="w-9 h-9" />
+            <img src={logo} alt="" className="w-9 h-9" />
            
         </div>
     </div>
